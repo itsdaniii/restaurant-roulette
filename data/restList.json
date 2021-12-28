@@ -1,0 +1,30 @@
+{"restList": [
+    {
+        "hasPatio": "yes",
+        "restNeighbourhood": "mount pleasant",
+        "cuisineType": "vietnamese",
+        "priceRange": "$$",
+        "restName": "ahn and chi"
+    },
+    {
+        "hasPatio": "Y",
+        "restNeighbourhood": "downtown",
+        "cuisineType": "japanese",
+        "priceRange": "$$$$",
+        "restName": "miku"
+    },
+    {
+        "hasPatio": "yes",
+        "restNeighbourhood": "gastown",
+        "cuisineType": "mexican",
+        "priceRange": "$",
+        "restName": "tacofino"
+    },
+    {
+        "hasPatio": "yes",
+        "restNeighbourhood": "yaletown",
+        "cuisineType": "canadian",
+        "priceRange": "$$$$",
+        "restName": "brix and mortar"
+    }
+]}

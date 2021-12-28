@@ -1,0 +1,16 @@
+{"restList": [
+    {
+        "hasPatio": "yes",
+        "restNeighbourhood": "mount pleasant",
+        "cuisineType": "vietnamese",
+        "priceRange": "$$",
+        "restName": "ahn and chi"
+    },
+    {
+        "hasPatio": "no",
+        "restNeighbourhood": "downtown",
+        "cuisineType": "mexican",
+        "priceRange": "$",
+        "restName": "chipotle"
+    }
+]}
