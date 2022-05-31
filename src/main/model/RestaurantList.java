@@ -34,11 +34,11 @@ public class RestaurantList implements Writeable {
     public void addRestaurant(Restaurant r) {
         if (!contains(r)) {
             restList.add(r);
-            System.out.println("Adding " + r.getRestName() + " to the list.");
+            ConsolePrinter.printAddSuccess(r);
             EventLog.getInstance().logEvent(new Event(r.getRestName()
                     + " has been added to the list."));
         } else {
-            System.out.println("This restaurant is already in the list. Sounds like you need to eat there ASAP!");
+            ConsolePrinter.printAddFailed();
             EventLog.getInstance().logEvent(new Event("Failed add attempt because " + r.getRestName()
                     + " is a duplicate."));
         }
@@ -59,25 +59,19 @@ public class RestaurantList implements Writeable {
             }
         }
         if (!successfulRemoval) {
-            System.out.println("Sorry, that restaurant doesn't exist yet. Maybe you should add it?");
+            ConsolePrinter.printRemoveFailed();
             EventLog.getInstance().logEvent(new Event("Failed removal attempt of " + restName
                     + " because it was not in the list."));
         } else {
-            System.out.println("Removing " + restName + " from the list.");
+            ConsolePrinter.printRemoveSuccess(restName);
             EventLog.getInstance().logEvent(new Event(restName + " has been removed from the list."));
         }
     }
 
+    // This is a console-only function
     // EFFECTS: Prints the restNames of all Restaurants in the restList
     public int viewRestList() {
-        System.out.println("This is your current list of restaurants - better get monching!");
-        int printCounter = 0;
-        for (Restaurant restaurant : restList) {
-            String printRestaurant = restaurant.getRestName();
-            System.out.println(printRestaurant);
-            printCounter++;
-        }
-        return printCounter;
+        return ConsolePrinter.printRestList(restList);
     }
 
     // Used to return restaurant name at user request
