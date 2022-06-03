@@ -38,7 +38,6 @@ This application is designed to be a repository, or “tracker”, to hold a lis
 Aside from improving on the visual aesthetics of the UI and implementing input controls (patio field should be a checkbox/boolean, price range should be a drop-down list of options with the description of range definitions that existed in the console UI), there are some design choices which I would like to refactor including:
 
 - **Single Responsibility Principle**: Extracting parts of the RestaurantAppGUI class which are unrelated to GUI set-up to improve the *cohesion* within RestaurantAppGUI, specifically:
-  - Extracting the printLog function into a new ConsolePrinter class in the UI package
   - Extracting the button functionality classes into new classes within the UI package (add, remove, save, load, restaurant roulette)
 - Improve my *coupling* between classes by extracting all the print functions (including console action statements, ConsolePrinter, and GUI display) into a separate class so that modifications to Restaurant and RestaurantList don't trigger required updates to code in multiple classes  
-- Could also modify RestaurantApp & RestaurantAppGUI classes so that they don't hold a Restaurant field and instead initialize with an empty RestaurantList (not a design choice, but an implementation choice) 
+- Could also modify RestaurantApp & RestaurantAppGUI classes so that they don't hold already hold a placeholder Restaurant "Anh and Chi," and instead initialize with an empty RestaurantList (not a design choice, but an implementation choice) 

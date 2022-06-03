@@ -1,17 +1,15 @@
 package model;
 
+import org.json.JSONObject;
+import persistence.Writeable;
+
 // Represents a restaurant with the following metadata:
 // restaurant name, cuisine type, neighbourhood, patio ("yes"/"no"), and a price range
-
 // "Price Range" is defined as:
 //      $     = < $15 per person
 //      $$    = $15 – 30 per person
 //      $$$   = $30-50 per person
 //      $$$$  = $50+ per person
-
-import org.json.JSONObject;
-import persistence.Writeable;
-
 public class Restaurant implements Writeable {
     private String restName;                // restaurant name
     private String cuisineType;             // cuisine type of the restaurant

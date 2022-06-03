@@ -7,24 +7,17 @@
         "restName": "ahn and chi"
     },
     {
-        "hasPatio": "Y",
-        "restNeighbourhood": "downtown",
-        "cuisineType": "japanese",
-        "priceRange": "$$$$",
-        "restName": "miku"
-    },
-    {
         "hasPatio": "yes",
         "restNeighbourhood": "gastown",
         "cuisineType": "mexican",
-        "priceRange": "$",
+        "priceRange": "$$",
         "restName": "tacofino"
     },
     {
         "hasPatio": "yes",
-        "restNeighbourhood": "yaletown",
-        "cuisineType": "canadian",
+        "restNeighbourhood": "downtown",
+        "cuisineType": "japanese",
         "priceRange": "$$$$",
-        "restName": "brix and mortar"
+        "restName": "miku"
     }
 ]}
