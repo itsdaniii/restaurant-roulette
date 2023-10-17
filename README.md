@@ -2,7 +2,7 @@
 
 ### A personalized restaurant tracker with recommendation functionality
 
-In a city with such an incredible food scene like Vancouver, there are always new restaurants popping up and I find myself frequently faced with two challenges: (1) remembering names of the restaurants when it comes time to make a reservation, and (2) coming to a group consensus on where to eat. As I know this is a struggle that is shared amongst many others, this application is intended to assist those who enjoy food, are indecisive about food, and want to track new and old restaurant favourites!
+In a city with such an incredible food scene like Vancouver, there are always new restaurants popping up and I find myself frequently faced with two challenges: **(1)** remembering names of the restaurants when it comes time to make a reservation, and **(2)** coming to a group consensus on where to eat. As I know this is a struggle that is shared amongst many others, this application is intended to assist those who enjoy food, are indecisive about food, and want to track new and old restaurant favourites!
 
 *Functionalities*
 
@@ -34,7 +34,7 @@ This application is designed to be a repository, or “tracker”, to hold a lis
 
 
 *****
-####*UPCOMING IMPROVEMENTS* 
+#### *UPCOMING IMPROVEMENTS* 
 Aside from improving on the visual aesthetics of the UI and implementing input controls (patio field should be a checkbox/boolean, price range should be a drop-down list of options with the description of range definitions that existed in the console UI), there are some design choices which I would like to refactor including:
 
 - **Single Responsibility Principle**: Extracting parts of the RestaurantAppGUI class which are unrelated to GUI set-up to improve the *cohesion* within RestaurantAppGUI, specifically:
