@@ -17,7 +17,7 @@ This application is designed to be a repository, or “tracker”, to hold a lis
 
 ***
 *User Stories*:
-1. As a user, I want to be able to add a restaurant to a list
+1. As a user, I want to be able to add a restaurant to a list, so I can track possible places to eat
    - Metadata = restaurant name, cuisine type, neighbourhood, patio (yes/no), price range
      - Define price ranges as:
        - $ = < $15 / person 
@@ -25,12 +25,12 @@ This application is designed to be a repository, or “tracker”, to hold a lis
        - $$$ = $30-50 / person 
        - $$$$ = $50+ / person
 
-2. As a user, I want to be able to remove a restaurant from the same list
-3. As a user, I want to be able to select a restaurant and view all its details (ie. its metadata)
-4. As a user, I want to be able to view all the restaurant names in the list
-5. As a user, I want to be able to save my restaurant list to file
-6. As a user, I want to be able to load my restaurant list from file
-7. As a user, I want to play Restaurant Roulette (ie. I want the program to suggest a random restaurant from my restaurant list)
+2. As a user, I want to be able to remove a restaurant from the same list, so I can maintain an updated list and remove a restaurant if I no longer like it
+3. As a user, I want to be able to select a restaurant and view all its details (ie. its metadata), so I can make eating decisions based on cuisine, neighbourhood, patio availability and price
+4. As a user, I want to be able to view all the restaurant names in the list, so I can see a high level view of my restaurant options
+5. As a user, I want to be able to save my restaurant list to file, so I can return to this list later
+6. As a user, I want to be able to load my restaurant list from file, so I can resume my previous restaurant tracking session
+7. As a user, I want to play Restaurant Roulette (ie. I want the program to suggest a random restaurant from my restaurant list), so I don't have to make the eating decision myself
 
 
 *****

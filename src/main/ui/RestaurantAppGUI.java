@@ -57,9 +57,9 @@ public class RestaurantAppGUI extends JFrame implements LogPrinter {
         display = new JLabel();
         display.setFont(new Font("Arial", Font.PLAIN, 18));
 
-        logo = ImageIO.read(new File("./data/logo.png"));
+        logo = ImageIO.read(new File("./data/new-logo-black.png"));
         logoLabel = new JLabel(new ImageIcon(logo));
-        logoLabel.setSize(new Dimension(500,500));
+        logoLabel.setSize(new Dimension(320,320));
 
         initialize();
 
@@ -177,10 +177,10 @@ public class RestaurantAppGUI extends JFrame implements LogPrinter {
     // This method references the TellerApp
     private void initialize() {
         restList = new RestaurantList();
-        rest = new Restaurant("ahn and chi", "vietnamese",
-                "mount pleasant", "yes", "$$");
-        restList.addRestaurant(rest);
-        model.addElement(rest);
+//        rest = new Restaurant("ahn and chi", "vietnamese",
+//                "mount pleasant", "yes", "$$");
+//        restList.addRestaurant(rest);
+//        model.addElement(rest);
         input = new Scanner(System.in);
         input.useDelimiter("\n");
         display.add(logoLabel);
@@ -241,7 +241,7 @@ public class RestaurantAppGUI extends JFrame implements LogPrinter {
             newRestDialogBox.add(new JLabel("Neighbourhood:"));
             newRestDialogBox.add(neighbourhoodInput);
             newRestDialogBox.add(Box.createVerticalStrut(15)); // a spacer
-            newRestDialogBox.add(new JLabel("Patio? (Y/N):"));
+            newRestDialogBox.add(new JLabel("Patio? (yes/no):"));
             newRestDialogBox.add(patioInput);
             newRestDialogBox.add(Box.createVerticalStrut(15)); // a spacer
             newRestDialogBox.add(new JLabel("Price Range?: "));

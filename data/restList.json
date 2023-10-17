@@ -19,5 +19,33 @@
         "cuisineType": "japanese",
         "priceRange": "$$$$",
         "restName": "miku"
+    },
+    {
+        "hasPatio": "no",
+        "restNeighbourhood": "downtown toronto",
+        "cuisineType": "mexican",
+        "priceRange": "$",
+        "restName": "seven lives"
+    },
+    {
+        "hasPatio": "no",
+        "restNeighbourhood": "downtown toronto",
+        "cuisineType": "middle eastern",
+        "priceRange": "$$$",
+        "restName": "byblos"
+    },
+    {
+        "hasPatio": "yes",
+        "restNeighbourhood": "downtown toronto",
+        "cuisineType": "thai",
+        "priceRange": "$$",
+        "restName": "pai"
+    },
+    {
+        "hasPatio": "yes",
+        "restNeighbourhood": "downtown toronto",
+        "cuisineType": "western",
+        "priceRange": "$$",
+        "restName": "cactus club"
     }
 ]}

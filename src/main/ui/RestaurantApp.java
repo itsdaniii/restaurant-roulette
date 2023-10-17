@@ -100,9 +100,9 @@ public class RestaurantApp {
     // This method references the TellerApp
     private void initialize() {
         restList = new RestaurantList();
-        rest = new Restaurant("ahn and chi", "vietnamese",
-                "mount pleasant", "yes", "$$");
-        restList.addRestaurant(rest);
+//        rest = new Restaurant("ahn and chi", "vietnamese",
+//                "mount pleasant", "yes", "$$");
+//        restList.addRestaurant(rest);
         input = new Scanner(System.in);
         input.useDelimiter("\n");
     }
